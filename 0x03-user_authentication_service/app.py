@@ -7,6 +7,7 @@ app = Flask(__name__)
 
 @app.route('/',  methods=["GET"])
 def home():
+    '''route for the homepage'''
     return jsonify({"message": "Bienvenue"})
 
 
